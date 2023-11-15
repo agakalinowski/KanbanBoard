@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<testcases>
+<testcase internalid="67172" name="Weryfikacja poprawności nazw kolumn zgodnie ze specyfikacją">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[1]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Potwierdzenie, że aplikacja <a href="https://kanbanboard.pl/">kanbanboard </a>poprawnie weryfikuje nazwy kolumn.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. Aplikacja kanbanboard.pl działa poprawnie.</p>
+
+<p>2. Weryfikacja czy korzystamy z najnowszej wersji strony.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[1]]></importance>
+	<estimated_exec_duration>10.00</estimated_exec_duration>
+	<status>2</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Wchodzimy na stronę kanbanboard.pl</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Aplikacja wyświetla się poprawnie</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Sprawdzamy czy nazwy kolumn odpowiadają tym ze specyfikacji.</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Aplikacja powinna zawierać kolumny o nazwach (kolejno):</p>
+
+<ul>
+	<li>To do</li>
+	<li>Doing</li>
+	<li>Done</li>
+</ul>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testcases>

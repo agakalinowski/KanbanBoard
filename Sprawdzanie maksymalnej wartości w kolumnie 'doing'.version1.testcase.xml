@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<testcases>
+<testcase internalid="68665" name="Sprawdzanie maksymalnej wartości w kolumnie 'doing'">
+	<node_order><![CDATA[1004]]></node_order>
+	<externalid><![CDATA[29]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Cel tego testu polega na weryfikacji, czy aplikacja prawidłowo egzekwuje ograniczenia na liczbę zadań przypisanych do kolumny &quot;doing&quot; dla pojedynczego użytkownika</p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. Aplikacja <a href="https://kanbanboard.pl/">KanbanBoard </a>działa poprawnie.</p>
+
+<p>2. Weryfikacja czy korzystamy z najnowszej wersji strony.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration>50.00</estimated_exec_duration>
+	<status>2</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Wejdź na stronę <a href="https://kanbanboard.pl/">kanbanboard</a></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Aplikacja wyświetla się poprawnie</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Przenieś cztery zadania z kolumny &#39;to do&#39; do kolumny &#39;doing&#39; ( przy pomocy metody drag&amp;drop)</p>
+
+<p>&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Aplikacja powinna wyświetlić ostrzeżenie lub komunikat o błędzie, m&oacute;wiący, że liczba zadań w kolumnie &quot;doing&quot; nie powinna przekraczać trzech na osobę.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testcases>

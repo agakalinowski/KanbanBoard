@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<testcases>
+<testcase internalid="67238" name="Weryfikacja swobodnego przepływu kolumn między sobą">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[12]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Aplikacja powinna umożliwić swobodny przepływ kolumn między sobą metodą drag&amp;drop przeciągnij i upuść.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. Aplikacja <a href="http://kanbanboard">kanbanboard </a>działa poprawnie.</p>
+
+<p>2. Weryfikacja czy korzystamy z najnowszej wersji strony.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration>20.00</estimated_exec_duration>
+	<status>2</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Wejdź na stronę <a href="https://kanbanboard.pl/">kanbanboard</a></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Aplikacja wyświetla się poprawnie</p>
+
+<p>&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Przeciągnij kolumnę &#39;to do&#39; w miejsce kolumny &#39;doing&#39; ( przy pomocy metody drag&amp;drop)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Kolumny powinny zamienić się miejscami. Kolumna &#39;to do&#39; powinna być w miejscu kolumny &#39;doing&#39;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Przeciągnij kolumnę &#39;doing&#39; w miejsce kolumny &#39;done&#39; ( przy pomocy metody drag&amp;drop)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Kolumny powinny zamienić się miejscami. Kolumna &#39;doing&#39; powinna być w miejscu kolumny &#39;done&#39;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Przeciągnij kolumnę &#39;done&#39; w miejsce kolumny &#39;to do&#39; ( przy pomocy metody drag&amp;drop)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Kolumny powinny zamienić się miejscami. Kolumna &#39;done&#39; powinna być w miejscu kolumny &#39;to do&#39;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testcases>

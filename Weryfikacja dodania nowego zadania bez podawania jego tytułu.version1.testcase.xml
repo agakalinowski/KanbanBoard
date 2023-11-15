@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<testcases>
+<testcase internalid="67227" name="Weryfikacja dodania nowego zadania bez podawania jego tytułu">
+	<node_order><![CDATA[1002]]></node_order>
+	<externalid><![CDATA[10]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Aplikacja Kanbanboard daje możliwość dodania nowego zadania bez wpisywania tytułu/nazwy. Zadanie nie będzie posiadało nazwy.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. Aplikacja <a href="http://kanbanboard.pl">kanbanboard </a>działa poprawnie.</p>
+
+<p>2. Weryfikacja czy korzystamy z najnowszej wersji strony.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration>50.00</estimated_exec_duration>
+	<status>2</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Wejdź na stronę <a href="http://kanbanboard.pl">kanbanboard</a></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Aplikacja wyświetla się poprawnie</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Kliknij na przycisk ADD TASK w kolumnie &#39;to do&#39;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Aplikacja powinna wyświetlić nowe okno. W nowym oknie można umieścić nazwę nowego zadania, zatwierdzić przyciskiem &quot;OK&quot; lub odrzucić przyciskiem &quot;Anuluj&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Pole &#39;wpisz nazwę karty&#39; pozostaw puste i kliknik OK</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Nowe zadanie wyświetla się bez nazwy w kolumnie &#39;to do&#39;</p>
+
+<p>&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Kliknij ponownie na przycisk ADD TASK w kolumnie &#39;doing&#39;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Pole &#39;wpisz nazwę karty&#39; pozostaw puste i kliknik OK</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Nowe zadanie wyświetla się bez nazwy w kolumnie &#39;doing&#39;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Kliknij ponownie na przycisk ADD TASK w kolumnie &#39;done&#39;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Pole &#39;wpisz nazwę karty&#39; pozostaw puste i kliknik OK</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Nowe zadanie wyświetla się bez nazwy w kolumnie &#39;done&#39;</p>
+
+<p>&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testcases>

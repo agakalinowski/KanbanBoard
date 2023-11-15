@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<testcases>
+<testcase internalid="67233" name="Weryfikacja swobodnego przepływu zadań pomiędzy kolumnami.">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[11]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Aplikacja ma możliwość swobodnego przemieszczania zadań pomiędzy kolumnami.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. Aplikacja <a href="http://kanbanboard.pl">kanbanboard </a>działa poprawnie.</p>
+
+<p>2. Weryfikacja czy korzystamy z najnowszej wersji strony.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration>20.00</estimated_exec_duration>
+	<status>2</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Wejdź na stronę <a href="http://kanbanboard.pl">kanbanboard</a></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Aplikacja wyświetla się poprawnie</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Wybierz jedno zadanie z kolumny &#39;to do&#39; i spr&oacute;buj je przenieść do kolumny &#39;doing&#39; przy pomocy metody drag&amp;drop (przeciągnij i upuść).</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Zadanie powinno zostać przeniesione do kolumny &#39;doing&#39;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Wybierz jedno zadanie z kolumny &#39;doing&#39; i spr&oacute;buj je przenieść do kolumny &#39;done&#39; przy pomocy metody drag&amp;drop (przeciągnij i upuść).</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Zadanie powinno zostać przeniesione do kolumny &#39;done&#39;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Wybierz jedno zadanie z kolumny &#39;done&#39; i spr&oacute;buj je przenieść do kolumny &#39;to do&#39;<strong> </strong>przy pomocy metody drag&amp;drop (przeciągnij i upuść).</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Zadanie powinno zostać przeniesione do kolumny &#39;to do&#39;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testcases>

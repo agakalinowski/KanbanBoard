@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Bartosz Kalinowski</Author>
+  <LastAuthor>Bartosz Kalinowski</LastAuthor>
+  <Created>2023-11-14T14:35:20Z</Created>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10066</WindowHeight>
+  <WindowWidth>15799</WindowWidth>
+  <WindowTopX>543</WindowTopX>
+  <WindowTopY>408</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Czcionka tekstu podstawowego" x:CharSet="238"
+    x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="_var_www_testlink_lib_results_t">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="29" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="54.339622641509436"
+   ss:DefaultRowHeight="13.584905660377359">
+   <Row>
+    <Cell><Data ss:Type="String">User,&quot;Test Suite&quot;,&quot;Test Case&quot;,Importance,&quot;Created on&quot;,&quot;Last modified on &quot;,&quot;Start Time&quot;,&quot;End Time&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">kuczynskaa,&quot;Sprawdzenie poprawnoĹ›ci/zgodnoĹ›ci jÄ™zyka&quot;,&quot;AK-13-1 : Weryfikacja poprawnoĹ›ci nazw kolumn zgodnie ze specyfikacjÄ… [v1]&quot;,&quot;(1) Low&quot;,&quot;2023-08-01 09:54:15&quot;,&quot;2023-08-03 13:17:40&quot;,03/07/2023,14/11/2023</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">kuczynskaa,&quot;Weryfikacja domyĹ›lnego widoku strony kanbanboard.pl&quot;,&quot;AK-13-2 : Sprawdzenie czy aplikacja daje moĹĽliwoĹ›Ä‡ dodania nowej kolumny. [v1]&quot;,&quot;(3) High&quot;,&quot;2023-08-01 10:30:51&quot;,&quot;2023-08-03 13:20:53&quot;,03/07/2023,14/11/2023</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">kuczynskaa,&quot;Weryfikacja domyĹ›lnego widoku strony kanbanboard.pl&quot;,&quot;AK-13-3 : Sprawdzenie czy strona domyĹ›lnie wyĹ›wietla jedno nowe zadanie w kolumnie To Do [v1]&quot;,&quot;(2) Medium&quot;,&quot;2023-08-01 11:00:29&quot;,&quot;2023-08-03 13:20:38&quot;,03/07/2023,14/11/2023</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">kuczynskaa,&quot;Sprawdzenie czy aplikacja umoĹĽliwia dodanie nowej kolumny&quot;,&quot;AK-13-5 : Weryfikacja moĹĽliwoĹ›ci dodania nowej kolumny za pomocÄ… przycisku ADD NEW COLUMN [v1]&quot;,&quot;(3) High&quot;,&quot;2023-08-01 12:28:16&quot;,&quot;2023-08-04 11:20:28&quot;,03/07/2023,14/11/2023</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">kuczynskaa,&quot;Sprawdzenie czy aplikacja umoĹĽliwia dodawanie nowych zadaĹ„&quot;,&quot;AK-13-6 : Weryfikacja czy kaĹĽda kolumna posiada przycisk add task [v1]&quot;,&quot;(3) High&quot;,&quot;2023-08-01 12:52:06&quot;,&quot;2023-08-04 11:19:38&quot;,03/07/2023,14/11/2023</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">kuczynskaa,&quot;Sprawdzenie czy aplikacja umoĹĽliwia dodanie nowej kolumny&quot;,&quot;AK-13-7 : Weryfikacja przycisku 'Anuluj' dostÄ™pnego przy dodawaniu nowej kolumny [v1]&quot;,&quot;(3) High&quot;,&quot;2023-08-01 14:16:03&quot;,&quot;2023-08-04 11:20:09&quot;,03/07/2023,14/11/2023</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">kuczynskaa,&quot;Sprawdzenie czy aplikacja umoĹĽliwia dodawanie nowych zadaĹ„&quot;,&quot;AK-13-8 : Weryfikacja czy aplikacja umoĹĽliwia dodanie nowego zadania [v1]&quot;,&quot;(3) High&quot;,&quot;2023-08-01 14:24:41&quot;,&quot;2023-08-04 13:10:21&quot;,03/07/2023,14/11/2023</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">kuczynskaa,&quot;Sprawdzenie czy aplikacja umoĹĽliwia dodanie nowej kolumny&quot;,&quot;AK-13-9 : Weryfikacja moĹĽliwoĹ›ci dodania nowej kolumny bez podania jej nazwy [v1]&quot;,&quot;(2) Medium&quot;,&quot;2023-08-01 14:37:11&quot;,&quot;2023-08-03 13:32:57&quot;,03/07/2023,14/11/2023</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">kuczynskaa,&quot;Sprawdzenie czy aplikacja umoĹĽliwia dodawanie nowych zadaĹ„&quot;,&quot;AK-13-10 : Weryfikacja dodania nowego zadania bez podawania jego tytuĹ‚u [v1]&quot;,&quot;(2) Medium&quot;,&quot;2023-08-01 14:41:40&quot;,&quot;2023-08-04 13:11:28&quot;,03/07/2023,14/11/2023</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">kuczynskaa,&quot;Konfiguracja indywidualnego workflow firmy&quot;,&quot;AK-13-11 : Weryfikacja swobodnego przepĹ‚ywu zadaĹ„ pomiÄ™dzy kolumnami. [v1]&quot;,&quot;(3) High&quot;,&quot;2023-08-01 14:56:22&quot;,&quot;2023-08-04 11:24:49&quot;,03/07/2023,14/11/2023</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">kuczynskaa,&quot;Konfiguracja indywidualnego workflow firmy&quot;,&quot;AK-13-12 : Weryfikacja swobodnego przepĹ‚ywu kolumn miÄ™dzy sobÄ… [v1]&quot;,&quot;(3) High&quot;,&quot;2023-08-01 15:17:53&quot;,&quot;2023-08-04 11:30:43&quot;,03/07/2023,14/11/2023</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">kuczynskaa,&quot;Weryfikacja moĹĽliwoĹ›ci uĹĽycia dowolnych znakĂłw&quot;,&quot;AK-13-13 : Sprawdzenie czy aplikacja umoĹĽliwia uĹĽycie dowolnych znakĂłw w polu kolumna [v1]&quot;,&quot;(2) Medium&quot;,&quot;2023-08-02 09:26:54&quot;,&quot;2023-08-04 13:14:12&quot;,03/07/2023,14/11/2023</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">kuczynskaa,&quot;Weryfikacja moĹĽliwoĹ›ci uĹĽycia dowolnych znakĂłw&quot;,&quot;AK-13-14 : Sprawdzenie czy aplikacja umoĹĽliwia uĹĽycie dowolnych znakĂłw w polu zadanie [v1]&quot;,&quot;(2) Medium&quot;,&quot;2023-08-02 10:08:33&quot;,&quot;2023-08-04 13:14:58&quot;,03/07/2023,14/11/2023</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">kuczynskaa,&quot;Sprawdzenie moĹĽliwoĹ›ci dodania dwĂłch kolumn lub zadaĹ„ o tej samej nazwie&quot;,&quot;AK-13-15 : Sprawdzenie czy moĹĽna dodaÄ‡ kolumny o tej samej nazwie [v1]&quot;,&quot;(2) Medium&quot;,&quot;2023-08-02 11:03:05&quot;,&quot;2023-08-03 13:49:37&quot;,03/07/2023,14/11/2023</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">kuczynskaa,&quot;Sprawdzenie moĹĽliwoĹ›ci dodania dwĂłch kolumn lub zadaĹ„ o tej samej nazwie&quot;,&quot;AK-13-16 : Sprawdzenie czy moĹĽna dodaÄ‡ zadania o tej samej nazwie [v1]&quot;,&quot;(2) Medium&quot;,&quot;2023-08-02 12:11:50&quot;,&quot;2023-08-03 13:50:35&quot;,03/07/2023,14/11/2023</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">kuczynskaa,Edycja,&quot;AK-13-17 : Sprawdzenie czy jest moĹĽliwoĹ›Ä‡ edycji tytuĹ‚u zadania [v1]&quot;,&quot;(3) High&quot;,&quot;2023-08-02 13:03:03&quot;,&quot;2023-08-04 13:23:22&quot;,03/07/2023,14/11/2023</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">kuczynskaa,Edycja,&quot;AK-13-18 : Sprawdzenie czy jest moĹĽliwoĹ›Ä‡ edycji nazwy kolumny [v1]&quot;,&quot;(3) High&quot;,&quot;2023-08-02 13:09:29&quot;,&quot;2023-08-04 13:23:57&quot;,03/07/2023,14/11/2023</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">kuczynskaa,&quot;Usuwanie kolumn i zadaĹ„&quot;,&quot;AK-13-19 : Sprawdzenie czy jest moĹĽliwoĹ›Ä‡ usuniÄ™cia kolumny [v1]&quot;,&quot;(2) Medium&quot;,&quot;2023-08-02 13:22:28&quot;,&quot;2023-08-04 13:19:41&quot;,03/07/2023,14/11/2023</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">kuczynskaa,&quot;Usuwanie kolumn i zadaĹ„&quot;,&quot;AK-13-20 : Sprawdzenie czy jest moĹĽliwoĹ›Ä‡ usuniÄ™cia zadania [v1]&quot;,&quot;(2) Medium&quot;,&quot;2023-08-02 13:32:08&quot;,&quot;2023-08-04 13:25:02&quot;,03/07/2023,14/11/2023</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">kuczynskaa,&quot;Pliki Cookies&quot;,&quot;AK-13-21 : Weryfikacja czy aplikacja dziaĹ‚a na bazie plikĂłw cookies [v1]&quot;,&quot;(3) High&quot;,&quot;2023-08-03 12:47:18&quot;,&quot;2023-08-04 13:32:12&quot;,03/07/2023,14/11/2023</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">kuczynskaa,&quot;Rejestrowanie i logowanie&quot;,&quot;AK-13-22 : Sprawdzenie funkcji rejestracji i logowania [v1]&quot;,&quot;(1) Low&quot;,&quot;2023-08-03 13:10:34&quot;,&quot;2023-08-04 13:46:32&quot;,03/07/2023,14/11/2023</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">kuczynskaa,&quot;Analiza w oparciu o wartoĹ›ci brzegowe&quot;,&quot;AK-13-23 : Sprawdzenie czy aplikacja umoĹĽliwi dodanie nowej kolumny bez wypeĹ‚nienia pola 'tytuĹ‚' [v1]&quot;,&quot;(2) Medium&quot;,&quot;2023-08-04 09:58:10&quot;,&quot;2023-08-04 13:03:59&quot;,03/07/2023,14/11/2023</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">kuczynskaa,&quot;Analiza w oparciu o wartoĹ›ci brzegowe&quot;,&quot;AK-13-24 : Sprawdzenie czy aplikacja umoĹĽliwi dodanie kolumny wpisujÄ…c  w jej nazwie tylko jednÄ… literÄ™/cyfrÄ™ [v1]&quot;,&quot;(2) Medium&quot;,&quot;2023-08-04 10:06:16&quot;,&quot;2023-08-04 10:42:52&quot;,03/07/2023,14/11/2023</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">kuczynskaa,&quot;Analiza w oparciu o klasy rĂłwnowaĹĽnoĹ›ci&quot;,&quot;AK-13-25 : Sprawdzenie czy w polu nazwa kolumny moĹĽna umieĹ›ciÄ‡ dowolnÄ… iloĹ›Ä‡ znakĂłw [v1]&quot;,&quot;(2) Medium&quot;,&quot;2023-08-04 10:42:04&quot;,&quot;2023-08-04 13:34:07&quot;,03/07/2023,14/11/2023</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">kuczynskaa,&quot;Analiza w oparciu o klasy rĂłwnowaĹĽnoĹ›ci&quot;,&quot;AK-13-26 : Sprawdzenie czy nazwa nowego zadania moĹĽe posiadaÄ‡ dowolnÄ… iloĹ›Ä‡ znakĂłw. [v1]&quot;,&quot;(2) Medium&quot;,&quot;2023-08-04 10:53:02&quot;,&quot;2023-08-04 13:41:59&quot;,03/07/2023,14/11/2023</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">kuczynskaa,&quot;Analiza w oparciu o wartoĹ›ci brzegowe&quot;,&quot;AK-13-27 : Sprawdzanie minimalnej wartoĹ›ci w kolumnie 'doing' [v1]&quot;,&quot;(3) High&quot;,&quot;2023-08-04 12:48:48&quot;,&quot;2023-08-04 12:53:46&quot;,03/07/2023,14/11/2023</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">kuczynskaa,&quot;Analiza w oparciu o wartoĹ›ci brzegowe&quot;,&quot;AK-13-28 : Sprawdzanie nominalnej wartoĹ›ci w kolumnie 'doing' [v1]&quot;,&quot;(3) High&quot;,&quot;2023-08-04 12:52:00&quot;,&quot;2023-08-04 12:56:47&quot;,03/07/2023,14/11/2023</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">kuczynskaa,&quot;Analiza w oparciu o wartoĹ›ci brzegowe&quot;,&quot;AK-13-29 : Sprawdzanie maksymalnej wartoĹ›ci w kolumnie 'doing' [v1]&quot;,&quot;(3) High&quot;,&quot;2023-08-04 12:57:43&quot;,&quot;2023-08-04 13:33:23&quot;,03/07/2023,14/11/2023</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Selected/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

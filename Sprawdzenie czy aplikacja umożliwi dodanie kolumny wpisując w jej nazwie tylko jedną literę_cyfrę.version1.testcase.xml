@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<testcases>
+<testcase internalid="68611" name="Sprawdzenie czy aplikacja umożliwi dodanie kolumny wpisując  w jej nazwie tylko jedną literę/cyfrę">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[24]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Aplikacja <a href="https://kanbanboard.pl/">kanbanboard </a>umożliwia dodanie kolumny kt&oacute;ra w swojej nazwie będzie zawierać tylko jedną literę/cyfrę.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. Aplikacja <a href="https://kanbanboard.pl/">kanbanboard </a>działa poprawnie.</p>
+
+<p>2. Weryfikacja czy korzystamy z najnowszej wersji strony.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration>20.00</estimated_exec_duration>
+	<status>2</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Wejdź na stronę <a href="https://kanbanboard.pl/">kanbanboard</a></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Aplikacja wyświetla się poprawnie</p>
+
+<p>&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Kliknij ADD NEW COLUMN</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Aplikacja powinna wyświetlić nowe okno. W nowym oknie można umieścić nazwę nowej kolumny zatwierdzić przyciskiem &quot;OK&quot; lub odrzucić przyciskiem &quot;Anuluj&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>W polu &#39;wpisz nazwę kolumny&#39; wpisz &#39;w&#39; i kliknij OK</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Aplikacja powinna dodać kolumnę o nazwie &#39;w&#39;. Kolumna widnieje jako ostatnia po prawej stronie.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p><a href="http://www.testowo.pl/testlink/lib/testcases/tcEdit.php?doAction=editStep&amp;testcase_id=68611&amp;tcversion_id=68612&amp;goback_url=http%3A%2F%2Fwww.testowo.pl%2Ftestlink%2Flib%2Ftestcases%2FarchiveData.php%3Ftcase_id%3D68611%26show_mode%3Dshow&amp;step_id=68614">Kliknij ponownie ADD NEW COLUMN</a></p>
+]]></actions>
+	<expectedresults><![CDATA[<table>
+	<tbody>
+		<tr>
+			<td>
+			<p>&nbsp;</p>
+			</td>
+			<td>
+			<p><a href="http://www.testowo.pl/testlink/lib/testcases/tcEdit.php?doAction=editStep&amp;testcase_id=68611&amp;tcversion_id=68612&amp;goback_url=http%3A%2F%2Fwww.testowo.pl%2Ftestlink%2Flib%2Ftestcases%2FarchiveData.php%3Ftcase_id%3D68611%26show_mode%3Dshow&amp;step_id=68614">Aplikacja powinna wyświetlić nowe okno. W nowym oknie można umieścić nazwę nowej kolumny zatwierdzić przyciskiem &quot;OK&quot; lub odrzucić przyciskiem &quot;Anuluj&quot;</a></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>W polu &#39;wpisz nazwę kolumny&#39; wpisz &#39;3&#39; i kliknij OK</p>
+]]></actions>
+	<expectedresults><![CDATA[<table>
+	<tbody>
+		<tr>
+			<td>
+			<p>&nbsp;</p>
+			</td>
+			<td>
+			<p><a href="http://www.testowo.pl/testlink/lib/testcases/tcEdit.php?doAction=editStep&amp;testcase_id=68611&amp;tcversion_id=68612&amp;goback_url=http%3A%2F%2Fwww.testowo.pl%2Ftestlink%2Flib%2Ftestcases%2FarchiveData.php%3Ftcase_id%3D68611%26show_mode%3Dshow&amp;step_id=68615">Aplikacja powinna dodać kolumnę o nazwie &#39;3&#39;. Kolumna widnieje jako ostatnia po prawej stronie.</a></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testcases>

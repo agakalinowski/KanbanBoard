@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<testcases>
+<testcase internalid="67344" name="Sprawdzenie czy aplikacja umożliwia użycie dowolnych znaków w polu zadanie">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[14]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Aplikacja <a href="https://kanbanboard.pl/">kanbanboard </a>umożliwia użycie dowolnych znak&oacute;w ( w tym specjalnych jak i diakrytycznych) w polu &#39;nazwa zadania&#39;.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. Aplikacja <a href="https://kanbanboard.pl/">kanbanboard</a> działa poprawnie.</p>
+
+<p>2. Weryfikacja czy korzystamy z najnowszej wersji strony.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration>30.00</estimated_exec_duration>
+	<status>2</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Wejdź na stronę<a href="https://kanbanboard.pl/"> kanbanboard</a></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Aplikacja działa poprawnie</p>
+
+<p>&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Kliknij przycisk ADD TASK w kolumnie to do</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Aplikacja powinna wyświetlić nowe okno. W nowym oknie można umieścić nazwę nowego zadania, zatwierdzić przyciskiem &quot;OK&quot; lub odrzucić przyciskiem &quot;Anuluj&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Wpisz&nbsp; R&oacute;że15% i kliknij OK</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Aplikacja powinna przekierować nas na stronę gł&oacute;wną. W kolumnie to do powinno się pokazać zadanie o nazwie R&oacute;że15%</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testcases>

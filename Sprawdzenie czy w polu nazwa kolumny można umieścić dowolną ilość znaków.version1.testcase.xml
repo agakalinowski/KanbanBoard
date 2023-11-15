@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<testcases>
+<testcase internalid="68618" name="Sprawdzenie czy w polu nazwa kolumny można umieścić dowolną ilość znaków">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[25]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Aplikacja umożliwia umieszczenie dowolnej ilości znak&oacute;w w polu nazwa kolumny.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. Aplikacja <a href="https://kanbanboard.pl/">kanbanboard </a>działa poprawnie.</p>
+
+<p>2. Weryfikacja czy korzystamy z najnowszej wersji strony.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration>20.00</estimated_exec_duration>
+	<status>2</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Wejdź na stronę <a href="https://kanbanboard.pl/">kanbanboard</a></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Aplikacja wyświetla się poprawnie</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Kliknij &#39;ADD NEW COLUMN&#39;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Aplikacja powinna wyświetlić nowe okno. W nowym oknie można umieścić nazwę nowej kolumny, zatwierdzić przyciskiem &quot;OK&quot; lub odrzucić przyciskiem &quot;Anuluj&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>W polu &#39;wpisz nazwę kolumny&#39; umieść&nbsp; trzynasto literową frazę&nbsp; &#39;DO WYJAŚNIENIA&#39; i kliklij OK</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Aplikacja powina dodać nową kolumnę o nazwie &#39;DO WYJAŚNIENIA&#39;.<br />
+Kolumna widnieje jako ostatnia po prawej stronie.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testcases>

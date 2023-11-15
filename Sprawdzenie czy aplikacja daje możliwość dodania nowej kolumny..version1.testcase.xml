@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<testcases>
+<testcase internalid="67178" name="Sprawdzenie czy aplikacja daje możliwość dodania nowej kolumny.">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[2]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Po wejsciu na stronę&nbsp;<a href="http://kanbanboard.pl">http://kanbanboard.pl</a> powinnien wyświetlić się przycisk<strong> ADD NEW COLUMN</strong></p>
+]]></summary>
+	<preconditions><![CDATA[<ol>
+	<li>Aplikacja <a href="http://kanbanboard.pl">kanbanboard.pl </a>działa poprawnie.</li>
+	<li>Weryfikacja czy korzystamy z najnowszej wersji strony.</li>
+</ol>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration>20.00</estimated_exec_duration>
+	<status>2</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Wejdź na stronę www.kanbanboard.pl</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Aplikacja&nbsp; wyświetla się poprawnie</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Zweryfikuj czy aplikacja zawiera przycisk &quot;ADD NEW COLUMN&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Aplikacja powinna zawierać przycisk &quot;ADD NEW COLUMN&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testcases>

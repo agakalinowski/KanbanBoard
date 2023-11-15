@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<testcases>
+<testcase internalid="67195" name="Weryfikacja możliwości dodania nowej kolumny za pomocą przycisku ADD NEW COLUMN">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[5]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Aplikacja powinna mieć możliwość dodania nowej kolumny za pomocą przycisku <strong>ADD NEW COLUMN</strong></p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. Aplikacja <a href="http://kanbanboard.pl">kanbanboard</a> działa poprawnie.</p>
+
+<p>2. Weryfikacja czy korzystamy z najnowszej wersji strony.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration>30.00</estimated_exec_duration>
+	<status>2</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Wejdź na stronę <a href="http://kanbanboard.pl">kanbanboard</a></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Aplikacja wyświetla się prawidłowo</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Kliknij w przycisk <strong>ADD NEW COLUMN</strong></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Aplikacja wyświetla dodatkowe okno w kt&oacute;rym prosi o podanie nazwy nowej kolumny. Nowe okno zawiera dwa dodatkowe przyciski &quot;OK&quot; oraz &quot;Anuluj&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Wpisz nazwę nowej kolumny &#39;NEW1&#39; i zatwierdź klikając w przycisk OK</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Strona powinna wyświetlić nową kolumnę o nazwie &quot;NEW1&quot;. Kolumna powinna znajdować się jako ostatnia po prawej stronie.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testcases>

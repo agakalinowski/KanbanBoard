@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<testcases>
+<testcase internalid="68624" name="Sprawdzenie czy nazwa nowego zadania może posiadać dowolną ilość znaków.">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[26]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Aplikacja KanbanBoard umożliwia dodanie nazwy nowego zadania z dowolną ilością znak&oacute;w.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. Aplikacja Kanbanboard działa poprawnie.</p>
+
+<p>2. Weryfikacja czy korzystamy z najnowszej wersji strony.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration>50.00</estimated_exec_duration>
+	<status>2</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Wejdź na stronę <a href="https://kanbanboard.pl/">Kanbanboard</a></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Aplikacja wyświetla się poprawnie</p>
+
+<p>&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Kliknij na przycisk &#39;&#39;ADD TASK&quot; w kolumnie &#39;to do&#39;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Aplikacja powinna wyświetlić nowe okno. W nowym oknie można umieścić nazwę nowego zadania, zatwierdzić przyciskiem &quot;OK&quot; lub odrzucić przyciskiem &quot;Anuluj&quot;</p>
+
+<p>&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>W polu &#39;wpisz nazwę karty&#39; umieść 22- literową frazę &#39;zwolnienia pracownik&oacute;w&#39; i kliknij OK</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Aplikacja powinna dodać nowe zadanie o nazwie &#39;zwolnienia pracownik&oacute;w&#39; w kolumnie &#39;to do&#39;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Kliknij ponownie na przycisk &#39;&#39;ADD TASK&quot; w kolumnie &#39;doing&#39;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<table>
+	<tbody>
+		<tr>
+			<td style="text-align:left">&nbsp;</td>
+			<td>
+			<p><a href="http://www.testowo.pl/testlink/lib/testcases/tcEdit.php?doAction=editStep&amp;testcase_id=68624&amp;tcversion_id=68625&amp;goback_url=http%3A%2F%2Fwww.testowo.pl%2Ftestlink%2Flib%2Ftestcases%2FarchiveData.php%3Ftcase_id%3D68624%26show_mode%3Dshow&amp;step_id=68628">W polu &#39;wpisz nazwę karty&#39; umieść 23- literową frazę&nbsp; &#39;utworzono wypowiedzenia&#39; i kliknij OK</a></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+]]></actions>
+	<expectedresults><![CDATA[<p>Aplikacja powinna dodać nowe zadanie o nazwie &#39;<a href="http://www.testowo.pl/testlink/lib/testcases/tcEdit.php?doAction=editStep&amp;testcase_id=68624&amp;tcversion_id=68625&amp;goback_url=http%3A%2F%2Fwww.testowo.pl%2Ftestlink%2Flib%2Ftestcases%2FarchiveData.php%3Ftcase_id%3D68624%26show_mode%3Dshow&amp;step_id=68628">utworzono wypowiedzenia</a>&#39; w kolumnie &#39;doing&#39;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Kliknij ponownie na przycisk &#39;ADD TASK&#39;&#39; w kolumnie &#39;done&#39;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>W polu &#39;wpisz nazwę karty&#39; umieść 31-litrerową frazę&nbsp; &#39;rozmowy z całą kadrą&nbsp; kierowniczą &#39; i kliknij OK</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Aplikacja powinna dodać nowe zadanie o nazwie &#39; rozmowy z całą kadrą kierowniczą&#39; w kolumnie &#39;done&#39;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testcases>
